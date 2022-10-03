@@ -1,0 +1,233 @@
+	html,
+		body,
+		#background
+		{
+		margin: -19px 0 0 0;
+		width: 100%;
+		}
+		/*-----------navigation-------------------------*/
+			#home{
+				background-color:#1f1e25;
+			
+					}
+		
+			.navbar li{
+				float: left;
+				list-style: none;
+				margin: 50px 13px;
+			}
+			.navbar li a{
+				padding: 13px 66px;
+				color: white;
+				text-decoration: none;
+				font-size: 25px;
+				font-weight: bold;
+			}
+			.navbar li a:hover{
+				color: red;
+				border-radius: 8px;
+		background-color: #B9C8D0;
+		transition: all 2s ease-out 0.001s;
+			}
+			/*-----------home-page-------------------------*/
+			.main{
+				padding: 100px 150px;
+				display: flex;
+			}
+		#box1{
+		width: 80%;
+		}
+		#box1  a{
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+		#box1  a:hover{
+			color: black;
+				border-radius: 4px;
+		background-color: #B9C8D0;
+		}
+		.social {
+			padding: 10px 0px;
+		}
+		.social li{
+			float: left;
+			list-style:  none;
+			padding: 10px 15px;
+			color: white;
+		}
+		#box1 h2{
+			font-size:33px; font-weight: bold; color: white;
+		}
+		#box1 span{text-transform: uppercase;}
+		#box1 p{font-size: 21px; color: #D311AC}
+		#box2 img{max-width: 100%;height: auto; border-radius: 100px;}
+		/*-----------about-------------------------*/
+		#about{
+		display: flex;
+		background-color: white;
+		}
+		#box3{
+		padding: 20px 180px;
+		height: 200px;
+		}
+		#box3 img:hover{
+		transform: scale(2);
+		transition: all 1s ease-in-out 0.1s;
+		}
+		#box4{
+		display: block;
+		font-size: 2rem;
+		}
+		#box4 p{
+		font-size: 20px;
+		font-family: 'Dancing Script', cursive;
+		}
+		#box4 p:hover{
+		transform: scale(1.5);
+		}
+		/*-----------contact-------------------------*/
+		#contact{
+		background-color:  #1f1e25;
+		height: 720px;
+		padding: 30px 30px;
+		}
+		#form{
+		background-color: #514355;
+		margin: 119px auto;
+				padding: 12px 22px;
+				width: 60%;
+				border-radius: 14px;
+		height: 500px;
+		
+		}
+		.form-group input{
+		text-align: center;
+			display: block;
+			width: 435px;
+			padding: 6px;
+			margin: 11px auto;
+			border-radius: 6px;
+			font-size: 20px;
+		}
+		#contact h2{
+		text-align: center;
+		color: white;
+		}
+		.form-group textarea{
+		margin: 5px 200px;
+		height: 250px;
+		width: 350px;
+		border-radius: 6px;
+		}
+		/*-----------footer-------------------------*/
+		h4{
+		text-align: center;
+		padding: 40px 20px;
+		font-size: 20px;
+		color: white;
+		}
+		/*-----------skill-------------------------*/
+		#skill{
+		background-color: #b585b1;
+		height: 600px;
+		}
+		#skill h2{
+		text-align: center;
+		padding-top: 50px;
+		font-size: 50px;
+		}
+		#tools{
+		width: 30%;
+		border:8px solid black;
+		border-radius: 22px;
+		height: 400px;
+		margin: 10px 100px;
+		text-align: center;
+		font-size: 25px;
+		float: right;
+		background-color: white;
+		}
+		#tools h2{margin-top: 0px; font-size: 40px;}
+		#tools img{
+			height: 100px;width: 100px;
+			margin: 10px;
+		}
+		#lang{
+		width: 30%;
+		border:8px solid black;
+		border-radius: 22px;
+		height: 400px;
+		margin: 10px 100px;
+		text-align: center;
+		font-size: 25px;
+		float: left;
+		background-color: white;
+		}
+		#lang img{max-height: 100px;max-width: 100px; margin: 10px 30px;}
+		#lang h2{
+			margin-top: 0px; font-size: 40px;
+		}
+		/*--------------------projects----------------------*/
+		#project{
+		background-color: #b9305694;
+		height: 700px;
+		display: inline-block;
+		width: 100%;
+		}
+		#project h2{
+		text-align: center;
+		padding-top: 50px;
+		font-size: 50px;
+		}
+		#project p{
+			font-size: 20px;
+		}
+		#key{
+		width: 30%;
+		border:8px solid black;
+		border-radius: 22px;
+		height: 400px;
+		margin: 10px 100px;
+		text-align: center;
+		font-size: 25px;
+		float: right;
+		background-color: white;
+		}
+		#key h2{margin-top:-30px; font-size: 40px;}
+		#key img{
+			height: 225px;max-width: 240px;
+		}
+		#calc{
+		width: 30%;
+		border:8px solid black;
+		border-radius: 22px;
+		height: 400px;
+		margin: 10px 100px;
+		text-align: center;
+		font-size: 25px;
+		float: left;
+		background-color: white;
+		}
+		#calc img{height: 225px;max-width:240px;}
+		#calc h2{margin-top: -30px; font-size: 40px;}
+		/*-----------go-to-top-------------------------*/
+		#button {
+		display: none;
+		position: fixed;
+		bottom: 10px;
+		right: 15px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color:red;
+		color: black;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 10px;
+		font-size: 18px;
+		}
+		#button:hover {
+		background-color:silver;
+	}
